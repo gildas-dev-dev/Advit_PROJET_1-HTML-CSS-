@@ -1,0 +1,144 @@
+/* header */
+
+
+
+
+@media screen and (max-width: 992px) {
+  button{
+      border-radius: 10px;
+  }
+  Button .text {
+      display: none;
+  }
+
+  Button .icon {
+      display: block;
+
+  }
+  button i{
+      border: none;
+      background: none;
+  }
+  .filtering{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-link{
+  border-top: 3px solid grey;
+ 
+}
+.first-section-main {
+  display: block;
+  flex-direction: row-reverse;
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.first-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: white;
+
+}
+.first-items-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .first-items-content {
+    width: calc(50% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Deux enfants par ligne sur mobile */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .first-items-content {
+    width: 100%;
+    /* Un enfant par ligne sur les écrans très étroits */
+  }
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .contenant {
+    width: calc(50% - 20px);
+    /* Deux enfants par ligne sur mobile */
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contenant {
+    width: 100%;
+    /* Un enfant par ligne sur les écrans très étroits */
+
+  }
+}
+
+
+/* populaire */
+/* Media query pour les écrans mobiles */
+
+@media (max-width: 992px) {
+  .child-block {
+      width: 100%;
+     
+      
+  }
+  
+}
+
+
+/* deuxième section */
+
+@media (max-width: 992px) {
+  .second-section-main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  .block1 {
+    width: 100%;
+
+  }
+}
+
+@media (max-width: 992px) {
+  .block2 {
+    width: 100%;
+
+  }
+}
+
+@media (max-width: 992px) {
+  .block3 {
+    width: 100%;
+  }
+}
+
+/* pieds de page */
+
+@media (max-width: 992px) {
+  footer ul{
+    width: 100%;
+    display: flex;
+   flex-wrap: wrap;
+
+  }
+}
